@@ -1,6 +1,6 @@
 ## Overview
 
-The publish step sets `NODE_AUTH_TOKEN` (or `NPM_TOKEN`) from a repository secret. This is a long-lived credential that can be stolen and used to publish malicious versions from outside the CI/CD pipeline, as demonstrated by the axios@1.14.1 supply chain attack.
+The publish step sets `NODE_AUTH_TOKEN` (or `NPM_TOKEN`) from a GitHub Actions secret (`secrets.*`). This is a long-lived credential that can be stolen and used to publish malicious versions from outside the CI/CD pipeline, as demonstrated by the axios@1.14.1 supply chain attack.
 
 ## Recommendation
 
