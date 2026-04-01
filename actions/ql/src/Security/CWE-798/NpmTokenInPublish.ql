@@ -1,6 +1,6 @@
 /**
  * @name Long-lived npm token used in publish step
- * @description The publish step sets NODE_AUTH_TOKEN or NPM_TOKEN from a repository secret.
+ * @description The publish step sets NODE_AUTH_TOKEN or NPM_TOKEN from a GitHub Actions secret.
  *              This is a long-lived credential that can be stolen and used to publish malicious
  *              versions from outside the CI/CD pipeline.
  * @kind problem
